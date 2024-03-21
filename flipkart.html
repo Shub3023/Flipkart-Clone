@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        #parent{
+            height: 802px;
+            width: 802px;
+            border: none;
+            margin: auto;
+            margin-top: 150px;
+            display:flex;
+
+        }
+        #child1{
+            height: 800px;
+            width: 310px;
+            border: 0.5px solid;
+            background-color:#2874f0;
+
+        }
+        #child2{
+            height: 800px;
+            width: 490px;
+            border: 0.5px solid;
+            background-color: #fff;
+        }
+        #inp1{
+            margin-top: 100px;
+            margin-left: 20px;
+           border:none;
+           border-bottom: 1px solid #e0e0e0;;
+           /* border-top: none; */
+           /* border-right: none; */
+           /* box-shadow: 1px 2px 3px black; */
+           width: 80%;
+           padding: 8px 10px 10px 0px;
+           background-color: #fff;
+        }
+        #inp2
+        {
+            
+            /* margin-top: 100px; */
+            padding: 15px;
+            margin-top: 35px;
+            margin-left: 20px;
+            text-align: center;
+            background-color:#fb641b;
+            box-shadow:  0 1px 2px 0 rgba(0,0,0,.2);
+            color: #fff;
+            width: 80%;
+            border: none;
+            letter-spacing: 0px;
+            font-family: Roboto,Arial,sans-serif;
+
+        }
+        #img1{
+           margin-top: 300px;
+        }
+        #inn1{
+            height: 600px;
+            width: 250px;
+            border: 1px ;
+            margin: auto;
+            /* margin-left: 20px; */
+            /* margin: auto; */
+            margin-top: 90px;
+
+            
+        }
+        #inn{
+            height: 660px;
+            width: 400px;
+            border: none;
+            margin: auto;
+            margin-top: 70px;
+        }
+        
+        .sp{
+            /* margin-top: 20px; */
+
+            color: #fff;
+            font-size: 28px;
+            font-weight: 500;
+        }
+        #link{
+            color:#878787;
+            font-size: 12px;
+            font-weight: 400;
+            margin-top: 25px;
+            margin-left: 20px;
+        }
+        #last{ 
+            /* margin-top: 10px; */
+            margin-left: 65px;
+            /* margin-top: 300px; */
+
+
+        }
+
+    </style>
+
+</head>
+<body>
+    <div id="parent">
+        <div id="child1" class="child">
+            <div id="inn1">
+            <span class="sp">Login</span>
+            <br>            
+            <br>
+            <span class="sp">Get access to your orders, Whishlist and Recommendations </span>
+            <img src="./login_img_c4a81e.png" alt="image not found" id="img1">
+        </div>
+        </div>
+        <div id="child2" class="child">
+            <div id="inn">
+            <input type="text" id="inp1" placeholder="Enter Email / Mobiel number">
+            <br>
+            <div id="link">
+                By continuing, you agree to Flipkart's
+                <a href="https://www.google.com/">Term of Use</a>
+                and
+                <a href="https://www.google.com/">Privacy Policy</a>
+                .
+            </div>
+            
+            <!-- <a id="inp2" href="https://www.google.com/" >Request OTP</a> -->
+            <!-- <input type="submit" value="Request OTP" id="inp2"> -->
+            <button id="inp2">Request OTP</button>
+<br>
+<br>
+            <a id="last" href="https://www.google.com/">New to Flipkart? Create an account</a>
+<!--  -->
+        </div>
+
+
+        </div>
+    </div>
+</body>
+</html>
